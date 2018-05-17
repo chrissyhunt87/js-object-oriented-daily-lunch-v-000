@@ -21,3 +21,11 @@ class Customer{
     store.customers.push(this);
   }
 }
+
+let mealId = 0;
+class Meal{
+  constructor(title, price){
+    this.title = title;
+    
+  }
+}
