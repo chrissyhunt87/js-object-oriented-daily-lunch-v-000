@@ -10,3 +10,4 @@ class Neighborhood{
     store.neighborhoods.push(this);
   }
 }
+
