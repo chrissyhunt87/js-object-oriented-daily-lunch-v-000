@@ -11,7 +11,9 @@ class Neighborhood{
   }
   
   deliveries(){
-    store.
+    return store.deliveries.filter(neighborhood => {
+      return neighborhood
+    })
   }
 }
 
